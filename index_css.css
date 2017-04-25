@@ -5,8 +5,10 @@
 
 .search {
   text-align: center;
-  width: 100%;
 }
+
+/* Below is so that the actual input of search field is adjusted
+to 50% width. This makes the entire search box only 50% */
 
 .search input {
   width: 50%;
@@ -15,6 +17,20 @@
 .submit {
   display: inline;
   text-align: center;
+}
+
+.submit input {
+  background-color: #e6e6e6;
+  border-style: none;
+  border-radius: 2px;
+}
+
+.submit input:hover {
+  background-color: #b3b3b3;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.5px;
+  border-radius: 2px;
 }
 
 ul {
@@ -45,6 +61,10 @@ li:hover {
   font-weight: bold;
 }
 
+/* future functionality below - This will make a red bar appear
+for whatever of the toolbar links is 'active' i.e. if you're on
+the Google images tab the images link would have a red bar at
+the top */
 .active {
   border-top-color: red;
   border-style: solid;
