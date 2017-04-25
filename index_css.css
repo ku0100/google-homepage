@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+}
+
+input {
+  width: 70%;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: arial, sans-serif;
+}
+
+li:hover {
+  background-color: #111111;
+  font-weight: bold;
+}
+
+.active {
+  border-top-color: red;
+  border-style: solid;
+  border-width: 2px 0 0 0;
+}
