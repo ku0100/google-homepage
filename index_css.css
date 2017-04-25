@@ -1,3 +1,7 @@
+* {
+  font-family: arial, sans-serif;
+}
+
 
 .icon {
   text-align: center;
@@ -20,16 +24,20 @@ to 50% width. This makes the entire search box only 50% */
 }
 
 .submit input {
-  background-color: #e6e6e6;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #757575;
   border-style: none;
   border-radius: 2px;
+  font-size: 14px;
+  padding: 10px;
 }
 
 .submit input:hover {
-  background-color: #b3b3b3;
+  background-color: #f8f8f8;
   border-style: solid;
-  border-color: #000000;
-  border-width: 0.5px;
+  border-color: #c6c6c6;
+  border-width: 1px;
   border-radius: 2px;
 }
 
