@@ -1,14 +1,20 @@
-* {
+
+.icon {
   text-align: center;
 }
 
-.button {
-  display: inline-block;
+.search {
+  text-align: center;
+  width: 100%;
 }
 
-input {
-  width: 70%;
-  text-align: left;
+.search input {
+  width: 50%;
+}
+
+.submit {
+  display: inline;
+  text-align: center;
 }
 
 ul {
